@@ -1,0 +1,26 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+power_set                                                                         0x0000       1
+time_set                                                                          0x0001       1
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+flag                                                                              R4           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+initdev                                                                           0x0001C     16
+buzz                                                                              0x0002C     20
+delay_min                                                                         0x00040     18
+rd_sets                                                                           0x00052     39
+btn_press                                                                         0x00079     28
+btn_func                                                                          0x00095     72
+read_ds18b20                                                                      0x000DD     41
+main                                                                              0x00106     35
